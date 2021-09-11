@@ -1,0 +1,25 @@
+.home {
+  /*background-color: blue;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home main {
+  /*background-color: #fca311;*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+  font-size: 1rem;
+  padding: 2rem;
+}
+
+.home main p {
+  text-align: center;
+  max-width: 30rem;
+}

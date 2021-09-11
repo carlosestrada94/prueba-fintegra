@@ -1,0 +1,149 @@
+.predictor {
+  /*background-color: blue;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.predictor main {
+  /*background-color: #fca311;*/
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+  font-size: 1rem;
+  padding: 2rem;
+}
+
+.predictor main > p {
+  text-align: center;
+  max-width: 30rem;
+}
+
+.predictor main > p > span {
+  font-weight: 600;
+}
+
+.card {
+  min-height: 23rem;
+  width: 100%;
+  max-width: 30rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.predictor main form {
+  /*background-color: aqua;*/
+  /*display: none;*/
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.predictor main form > div {
+  /*background-color: red;*/
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.predictor main form > div label {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.predictor main form > div label > span {
+  opacity: 0.5;
+}
+
+.predictor main form > div > p {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.predictor main form > div > input {
+  padding: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+}
+
+.predictor main form > div > input:focus {
+  outline: none;
+  border-width: 2px;
+  border-color: var(--color-agify);
+  border-radius: 0.5rem;
+}
+
+.predictor main form > div > select {
+  background-color: white;
+  padding: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+}
+
+.predictor main form > div > select:focus {
+  outline: none;
+  border-width: 2px;
+  border-color: var(--color-agify);
+  border-radius: 0.5rem;
+}
+
+.results {
+  /*background-color: #fca311;*/
+  display: none;
+  height: 100%;
+  width: 100%;
+  /*display: flex;*/
+  flex-direction: column;
+}
+
+.results p {
+  font-weight: 600;
+  text-align: center;
+}
+
+.results p span {
+  font-weight: 300;
+}
+
+.results table {
+  flex: 1;
+}
+
+.results > table > tr > th {
+  font-weight: 600;
+  text-align: left;
+}
+
+.results > table > tr > td {
+  /*text-align: left;*/
+}
+
+.results > table > tr:nth-child(even) {
+  background-color: rgba(235, 59, 90, 0.2);
+}
+
+.results button {
+  margin-top: 1rem;
+}
+
+.loading {
+  /*display: flex;*/
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
