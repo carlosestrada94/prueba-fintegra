@@ -1,4 +1,4 @@
 # Ejercicios prácticos de Fintegra.co
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+El ejercicio 2 se puede encontrar live [aquí](https://fintegra-age-predictor.web.app/).
