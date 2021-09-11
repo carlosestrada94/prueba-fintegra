@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --color-primary: #14213d;
+  --color-secondary: #fca311;
+  --color-tertiary: #e5e5e5;
+  --color-agify: rgb(235, 59, 90);
+}
+
+body {
+  font-size: 62.5%;
+  font-weight: 300;
+}
+
+h1 {
+  color: var(--color-agify);
+  font-size: 1.5rem;
+}
+
+button {
+  padding: 0.5rem 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  background-color: var(--color-agify);
+  opacity: 1;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a[href*="agify"] {
+  color: var(--color-agify);
+}
+
+a[href*="cees"] {
+  color: var(--color-primary);
+}
+
+header {
+  /*background-color: red;*/
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer {
+  /*background-color: red;*/
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.spinner {
+  border: 3px solid rgba(116, 116, 116, 0.3);
+  border-top-color: var(--color-agify);
+  border-radius: 50%;
+  animation: 1s spin infinite ease-in-out;
+  height: 3rem;
+  width: 3rem;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
